@@ -3,12 +3,13 @@ var requestAnimationFrame;
 module.exports = function(animationCallback){
 
   return {
+    animationFrame:null,
       draw: function(animationCallback){
-      window.requestAnimationFrame();
+      animationFrame = window.requestAnimationFrame();
       animationCallback();
     },
     stop: function(){
-      window.cancelAnimationFrame();
+      window.cancelAnimationFrame(this.animationFrame);
     }
 
 };
