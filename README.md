@@ -8,9 +8,9 @@ Wraps all cross-browser touching of requestAnimationFrame() or cancelAnimationFr
 
 For example:
 
-		var runLoop = require('runLoop');
+		var runloop = require('runloop');
 
-		runLoop.draw(function(){
+		runloop.draw(function(){
 		    //Draw some stuff here.
 		})
 
@@ -19,6 +19,6 @@ For example:
 For example:
 
 		//To stop the loop from running:
-		runLoop.stop();
+		runloop.stop();
 
 Created for Andy Leeper's WiiU presentation at JS.Everywhere by Dan Finlay while working at MochaLeaf Inc.

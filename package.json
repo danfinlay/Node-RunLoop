@@ -1,5 +1,5 @@
 {
-  "name": "runLoop",
+  "name": "runloop",
   "version": "0.0.0",
   "description": "A node.js wrapper for requestAnimationFrame and cancelAnimationFrame.",
   "main": "index.js",
